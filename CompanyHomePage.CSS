@@ -1,0 +1,180 @@
+html {
+    color: aliceblue;
+    font-size: 16px;
+    width: 1200px;
+    font-family: "Lexend Mega", sans-serif;
+}
+
+body {
+    background-color: black;
+    text-align: center;
+}
+
+.logo {
+height: 100px;
+width: 100px;
+z-index: 1;
+
+}
+
+.header {
+display: flex;
+justify-content: space-between;
+
+
+
+}
+
+h1 {
+    
+    border: solid rgb(208, 158, 72) 3px;
+    border-radius: 40px 20px;
+    font-size: 4rem; 
+    padding: 20px 0px;
+    margin-top: 100px;
+    
+   
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-right: 40px;
+    flex-direction: row;
+    
+
+    
+}
+
+
+.navbar a {
+    color: aliceblue;
+}
+
+.navbar h3{
+    
+    
+    border-radius: 30%;
+    padding: 5px 10px;
+    margin-bottom: 0px;
+    
+}
+
+a:hover {
+text-decoration: underline;
+color: rgb(208, 158, 72);
+}
+
+.Aboutsection {
+    display: flex;
+    justify-content: center;
+     align-items: center;
+    height: 200px;
+
+}
+
+.Aboutcontent {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    width: 1200px;
+    color: white;
+    
+}
+
+.Aboutcontent h2 {
+    text-transform: uppercase;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.Servicessection {
+    display: block;
+    text-align: center;
+    border-left: solid rgb(107, 102, 222) 1px;
+    border-right: solid rgb(107, 102, 222) 1px;
+    padding-left: 0px;
+    padding-right: 0px;
+   
+}
+
+.Services h3{
+padding-bottom: 20px ;
+color: rgb(107, 102, 222);
+
+}
+
+.Services h2 {
+padding-bottom: 0px;
+margin-bottom: 40px;
+font-size: 30px;
+color: rgb(208, 158, 72);
+}
+
+
+.Solutions {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+    background-color: black;
+    
+}
+
+.Solutions h3 {
+    color: white;
+}
+
+.Solution1 {
+    display: block;
+    
+}
+
+.Team-container h2{
+
+    font-size: 30px;
+    text-decoration: underline;
+    margin-bottom: 100px;
+    
+}
+
+.Team-container {
+    border-top: solid rgb(107, 102, 222) 1px;
+    border-bottom: solid rgb(107, 102, 222)1px;
+    background-image: url(https://img.freepik.com/premium-vector/abstract-neon-with-elegant-dark-background-gaming-stage-wallpaper_107575-245.jpg);
+}
+
+.Teamplayers {
+    display: flex;
+    justify-content:space-around;
+    width: 1200px;
+}
+
+.Colleague img {
+    height: 200px;
+    width: 200px;
+    border-radius: 30%;
+    border: solid rgb(208, 158, 72) 2px;
+}
+
+.Colleague {
+    display: block;
+    padding: 10px;
+}
+
+footer {
+    
+    
+    color: white;
+    text-align: center;
+    padding: 0.1rem;
+  
+}
+
+h6 {
+    text-align: left;
+}
